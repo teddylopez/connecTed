@@ -1,0 +1,14 @@
+html {
+  background-color: #212121;
+}
+
+#video-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+video {
+  height: 400px;
+  padding: 5px;
+}
