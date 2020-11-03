@@ -3,10 +3,18 @@ const videoGrid = document.getElementById("video-grid");
 const myVideo = document.createElement("video");
 const peers = {};
 
+// For development:
 const myPeer = new Peer(undefined, {
   host: "/",
   port: "3001"
 });
+
+// const myPeer = new Peer(undefined, {
+//   host: "ted-peer-server.herokuapp.com",
+//   secure: true,
+//   port: 443,
+//   path: ""
+// });
 
 myVideo.muted = true;
 
